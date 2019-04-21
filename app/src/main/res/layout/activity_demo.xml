@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/aty_main_vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/aty_main_ll_bottom"></android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/aty_main_ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="#D6D6D6"></View>
+
+        <LinearLayout
+            android:id="@+id/aty_main_ll_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FCFCFC"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/aty_main_tab_item_android"
+                style="@style/AtyMainBottomTabText"
+                android:text="Android"
+                android:textColor="@color/normalLightText" />
+
+            <TextView
+                android:id="@+id/aty_main_tab_item_opengl"
+                style="@style/AtyMainBottomTabText"
+                android:text="OpenGL" />
+
+            <TextView
+                android:id="@+id/aty_main_tab_item_vulkan"
+                style="@style/AtyMainBottomTabText"
+                android:text="Vulkan" />
+
+            <TextView
+                android:id="@+id/aty_main_tab_item_large"
+                style="@style/AtyMainBottomTabText"
+                android:text="Large" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

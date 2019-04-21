@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.karenjar.demo">
+
+    <application
+        android:name="com.karenjar.KarenApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+<!--        <activity android:name=".DemoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>-->
+        <activity android:name=".AndroidActivity" />
+        <activity android:name=".OpenGLActivity" />
+        <activity android:name=".VulkanActivity" />
+        <activity android:name=".LargeActivity" />
+<!--        <activity
+            android:name=".tab.opengl.psblend.NormalAty"
+            android:label="@string/lab_opengl_psblend_normal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.karenjar.demo.category.OPENGL" />
+            </intent-filter>
+        </activity>-->
+    </application>
+
+</manifest>
