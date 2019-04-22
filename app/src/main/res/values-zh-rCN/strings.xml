@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">卡人家</string>
+
+    <string name="opengl_background">OpenGL/0.背景色</string>
 </resources>

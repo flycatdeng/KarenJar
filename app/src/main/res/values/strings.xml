@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">KarenJar</string>
+
+
+    <!--label opengl-->
+    <string name="opengl_background">OpenGL/0.Background</string>
 </resources>

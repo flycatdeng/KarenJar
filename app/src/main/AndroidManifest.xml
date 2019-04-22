@@ -27,14 +27,21 @@
         <activity android:name=".OpenGLActivity" />
         <activity android:name=".VulkanActivity" />
         <activity android:name=".LargeActivity" />
-<!--        <activity
-            android:name=".tab.opengl.psblend.NormalAty"
-            android:label="@string/lab_opengl_psblend_normal">
+        <activity android:name=".opengl.BackgroundAty"
+            android:label="@string/opengl_background">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="com.karenjar.demo.category.OPENGL" />
+                <category android:name="com.karenjar.demo.category.DEMO" />
             </intent-filter>
-        </activity>-->
+        </activity>
+        <!--        <activity
+                    android:name=".tab.opengl.psblend.NormalAty"
+                    android:label="@string/lab_opengl_psblend_normal">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN" />
+                        <category android:name="com.karenjar.demo.category.OPENGL" />
+                    </intent-filter>
+                </activity>-->
     </application>
 
 </manifest>
