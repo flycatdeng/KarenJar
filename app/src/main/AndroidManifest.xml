@@ -34,6 +34,13 @@
                 <category android:name="com.karenjar.demo.category.DEMO" />
             </intent-filter>
         </activity>
+        <activity android:name=".opengl.SaveImageAty"
+            android:label="@string/opengl_saveimage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.karenjar.demo.category.DEMO" />
+            </intent-filter>
+        </activity>
         <!--        <activity
                     android:name=".tab.opengl.psblend.NormalAty"
                     android:label="@string/lab_opengl_psblend_normal">

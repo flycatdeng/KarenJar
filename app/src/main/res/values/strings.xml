@@ -4,4 +4,6 @@
 
     <!--label opengl-->
     <string name="opengl_background">OpenGL/0.Background</string>
+    <string name="opengl_saveimage">OpenGL/1.Save Image</string>
+
 </resources>
